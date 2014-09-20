@@ -1,3 +1,8 @@
+Create a symlink to the assignemnt in the correct templates directory.
+In my case, using Janus and Vim, the command was:
+ln -s ./homework.tex
+~/.janus/vim-latex/ftplugin/latex-suite/templates/assignment.tex
+
 ## Credit
 
 When was looking for a good assignment template, I found Josh Davis'
