@@ -3,6 +3,11 @@ In my case, using Janus and Vim, the command was:
 
 ln -s ./homework.tex ~/.janus/vim-latex/ftplugin/latex-suite/templates/assignment.tex
 
+
+For now, when using VIM, you must use ":set paste" before using
+":TTemplate assignment".  The indentation in the tex file is re-done
+when pasting into VIM, causing an unfortunate stair-stepping effect.
+
 ## Credit
 
 When was looking for a good assignment template, I found Josh Davis'
